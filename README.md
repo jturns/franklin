@@ -1,0 +1,1 @@
+This is a simple journal app named Franklin
