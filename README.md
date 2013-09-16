@@ -1,1 +1,1 @@
-This is a simple journal app named Franklin
+This may become simple journal app named Franklin.
