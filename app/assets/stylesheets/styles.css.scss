@@ -1,0 +1,52 @@
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+$btnPrimaryBackground: purple;
+
+@import 'bootstrap';
+body{
+    padding-top: 150px;
+}
+
+@import 'bootstrap-responsive';
+
+.navbar-inner{
+    @include box-shadow(none !important);
+    border: 0;
+}
+
+.footer{
+    margin-top: 50px;
+    color: $grayLight;
+    a{
+        color: $gray;
+    }
+}
+
+.navbar .brand {
+  float: left;
+  display: block;
+  padding: 0px 0px 0px;
+  margin-left: -20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #777777;
+  text-shadow: 0 1px 0 white;
+  }
+
+  .navbar .nav > li > a {
+  float: none;
+  padding: 44px 15px 10px;
+  color: #777777;
+  text-decoration: none;
+  text-shadow: 0 1px 0 white;
+  font-size: 17px;
+}
+.hero-unit {
+padding: 60px;
+margin-bottom: 30px;
+font-size: 18px;
+font-weight: 200;
+line-height: 30px;
+color: inherit;
+background-color: rgba(143, 180, 204, 0.26);
+}
